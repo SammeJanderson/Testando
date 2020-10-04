@@ -1,2 +1,2 @@
 # Testando
-Um repositório com vários micro projetos para aprender variadas implementações java.
+Um repositório com vários micro projetos para aprender implementações java.
