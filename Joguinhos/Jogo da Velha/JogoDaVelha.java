@@ -23,7 +23,7 @@ public class JogoDaVelha {
 
         while (true) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Digite uma casa (1-9");
+            System.out.println("Digite uma casa (1-9)");
             int playerPos = scanner.nextInt();
             while(playerPositions.contains(playerPos) || cpuPositions.contains(playerPositions)){
                 System.out.println("Posição invalida, encolha outra posição.");
@@ -101,23 +101,18 @@ public class JogoDaVelha {
                 break;
             case 5:
                 tabuleiro[2][2] = symbol;
-
                 break;
             case 6:
                 tabuleiro[2][4] = symbol;
-
                 break;
             case 7:
                 tabuleiro[4][0] = symbol;
-
                 break;
             case 8:
                 tabuleiro[4][2] = symbol;
-
                 break;
             case 9:
                 tabuleiro[4][4] = symbol;
-
                 break;
             default:
                 break;
